@@ -1,4 +1,7 @@
+
 import java.util.*;  
+
+//a program to copy all the elements from set2 to set1 so that the set1 becomes the union of set1 and set2.
 class SetUnion{  
  public static void main(String args[]){  
   LinkedHashSet<String> set1=new LinkedHashSet<String>();  

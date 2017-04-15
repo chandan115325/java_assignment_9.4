@@ -1,6 +1,6 @@
 import java.util.Comparator;
 import java.util.TreeSet;
- 
+// 
 public class Employee {
  
     public static void main(String a[]){
@@ -20,7 +20,7 @@ public class Employee {
       
     }
 }
- 
+ //MyNameComp is creeated to compare the name property
 class MyNameComp implements Comparator<Empl>{
  
     @Override
@@ -36,6 +36,7 @@ class MyNameComp implements Comparator<Empl>{
     }
 }  
 
+//this is created to compare the designation of the employee
 class MyDesignationComp implements Comparator<Empl>{
 	 
     @Override
